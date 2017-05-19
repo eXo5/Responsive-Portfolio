@@ -1,0 +1,110 @@
+html {
+	position:relative;
+	min-height:100%;
+}
+
+body {
+
+	margin: 0 0 50px;
+
+}
+
+header {
+	position:relative;
+	padding:20px;
+	background-color:silver;
+	height:10%;
+
+}
+
+	nav {
+		position:absolute;
+		top:33%;
+		right:10%;
+		display:inline-block;
+	
+	}
+
+		nav a{
+			border: 2px outset LightSkyBlue;
+			background-color:LightBlue;
+			
+		}
+/*h1=name in header*/
+h1 {
+	position:absolute;
+	width:275px;
+	height:100%;
+	left:10%;
+	top:-54%;
+	text-align: center;
+	font-family: 'bitter', sans-serif;
+	background: LightSkyBlue;
+}
+
+
+h6 {
+	color:white;
+}
+
+p {
+	font-size:20px;
+	text-indent: 40px;
+
+}
+
+.container {
+	width:980px;
+
+}
+section {
+		float:left;
+		position:absolute;
+		margin-top:1%;
+		padding-top:8%;
+		top:10%;
+		left:10%;
+		width:35%;
+		border: 2px groove green;
+}	
+	/*h3=About Me */
+	h3 {
+		position:absolute;
+		left:10%;
+		top:1%;
+		text-align: center;
+		border-bottom: 2px black solid;	
+		padding-bottom:3%;
+	}
+
+	#biobag {
+		
+		}
+
+	#mePic {
+		float:left;
+		margin-right: 2px; 
+		margin-bottom:2px;
+		height:185px;
+	}
+
+	.bio1 {
+	
+	}
+
+	.bio2 {
+		clear:both;
+	}
+
+
+aside {
+	float:right;
+	position:absolute;
+	right:33%;
+	top:4%;
+}
+
+footer {
+	
+	clear:both;
+}
