@@ -5,7 +5,8 @@ body {
   color: #777;
   background: url("../images/concrete_seamless.png");
 }
-
+/*In regards to all this superfluous css: sometimes just you have to employ the ol'
+"if it ain't broke" rule*/
 * {
   box-sizing: border-box;
 }
@@ -108,6 +109,9 @@ footer {
   background: #666;
   border-top: 8px solid #4aaaa5;
 }
+
+ 
+ }
 
 /* sidebar */
 
@@ -291,12 +295,21 @@ input[type=submit] {
   }
 
   .main-section {
-  float:none;
-  max-width: 560px;
+  max-width: 600px;
+  max-height:2425px;
   padding: 30px;
-  margin: 0px 40px 0px 40px;
+  margin: 0px 20px 0px 20px;
   background: #fff;
   border: 1px solid #ddd;
+  }
+  
+  .work {
+    position:relative;
+    float:left;
+    width:540px;
+    margin: 20px 0 25px;
+    overflow:auto;
+
   }
 
   #main-portfolio {
@@ -309,9 +322,10 @@ input[type=submit] {
 section.sidebar {
     float:left;
     width:100%;
+
     padding:30px;
-    max-width:560px;
-    margin: 25px 40px 25px 40px;
+    max-width:600px;
+    margin: 25px 20px 25px 20px;
   }
   
 }
@@ -336,16 +350,16 @@ section.sidebar {
   nav {
     float: right;
     margin-top: 25px;
-    margin-right: 25px;
+    margin-right: 28px;
     }
 
    
 
     .main-section {
-  float: left;
+  float:left;
   max-width: 738px;
   padding: 30px;
-  margin: 0 0 40px 2%;
+  margin: 0 50px 40px 2% ;
   background: #fff;
   border: 1px solid #ddd;
   }
@@ -365,7 +379,18 @@ section.sidebar {
     margin: 0 0 40px 2%;
   }
 
+ .work {
+  position: relative;
+  float: left;
+  width: 308px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
 
+  h1 {
+    margin-bottom:20px;
+    margin-right:3%;
+  }
   
 }
 
@@ -384,6 +409,8 @@ section.sidebar {
   background: #4aaaa5;
   margin-left:5%;
 }
+
+
 
     nav {
   float: right;
@@ -420,5 +447,13 @@ section.sidebar {
     background: #fff;
     border: 1px solid #ddd;
   }
+
+  .work {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
 
 }
